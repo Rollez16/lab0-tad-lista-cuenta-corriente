@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0000ff, #ff0000);
+  color: white;
+  text-align: center;
+}
+
+/* Encabezado */
+header {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+/* Sección de Biografía */
+#bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 80%;
+}
+
+.mi-foto {
+  width: 120px; /* Tamaño reducido */
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid white;
+}
+
+.info h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.info p {
+  font-size: 1.2em;
+  margin: 5px 0;
+  text-align: center; /* Texto centrado */
+}
+
+/* Sección de Mis Gustos */
+#gustos {
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  text-align: center;
+}
+
+#gustos h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#gustos p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Sección de Mi Gato */
+#mi-gato {
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 80%;
+  text-align: center;
+}
+
+.gato-foto {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 3px solid white;
+}
+
+#mi-gato h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#mi-gato p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  text-align: center; /* Texto centrado */
+}
+
+/* Pie de página */
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 1em;
+  color: #fff;
+}
+
+  
